@@ -9,6 +9,35 @@
     display: flex;
 }
 
+.heart:hover {
+    color: red;
+}
+
+.photo-one:hover {
+    background-image: url(./img/1b.webp)
+}
+
+.photo-two:hover {
+    background-image: url(./img/2b.webp)
+}
+
+.photo-three:hover {
+    background-image: url(./img/3b.webp)
+}
+
+.photo-four:hover {
+    background-image: url(./img/4b.webp)
+}
+
+.photo-five:hover {
+    background-image: url(./img/5b.webp)
+}
+
+.photo-six:hover {
+    background-image: url(./img/6b.webp)
+}
+
+
 /* +++++++++++++++++++ HEADER STYLE +++++++++++++++++++*/
 
 header {
