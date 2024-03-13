@@ -1,5 +1,125 @@
+/* +++++++++++++++++++ COMMON STYLE +++++++++++++++++++*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+/* +++++++++++++++++++ HEADER STYLE +++++++++++++++++++*/
+
+header {
+    background-color: #FF6900;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0 0.5rem;
+}
+
+header img {
+    height: 4rem;
+    padding: 1rem;
+    display: block;
+}
+
+/* +++++++++++++++++++ MAIN STYLE +++++++++++++++++++*/
+main {
+    padding-top: 6rem;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    /* display:flex */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-items {
+    width: calc(85% / 3);
+    height: 35rem;
+    margin-top: 2rem;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.container-img {
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.heart {
+    color: black;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.testo-img {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 1.5rem;
+}
+
+.green {
+    background-color: green;
+    padding: 0.2rem;
+}
+
+.red {
+    background-color: red;
+    padding: 0.2rem;
+}
+
+.container-name-price {
+    height: 10%;
+}
+
+.sale-price {
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+
+/* +++++++++++++++++++ MAIN IMG STYLE +++++++++++++++++++*/
+.photo-one {
+    background-image: url(./img/1.webp);
+}
+
+.photo-two {
+    background-image: url(./img/2.webp);
+}
+
+.photo-three {
+    background-image: url(./img/3.webp);
+}
+
+.photo-four {
+    background-image: url(./img/4.webp);
+}
+
+.photo-five {
+    background-image: url(./img/5.webp);
+}
+
+.photo-six {
+    background-image: url(./img/6.webp);
 }
